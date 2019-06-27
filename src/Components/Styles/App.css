@@ -1,0 +1,19 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -90%);
+}
+
+.form-header {
+  color: #92140c;
+  font-size: 40px;
+}
+
+hr {
+  width: 50%;
+}

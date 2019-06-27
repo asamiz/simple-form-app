@@ -1,0 +1,87 @@
+.form-table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  width: 70%;
+  position: fixed;
+  margin-left: 15%;
+  margin-top: 20px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 60px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.form-table thead tr {
+  background-color: #353238 !important;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form-table tr,
+.form-table td {
+  padding: 8px;
+}
+
+.form-table tbody tr {
+  background-color: #f7f7f7;
+}
+
+#addBtn {
+  color: #20bf6b !important;
+  text-transform: uppercase;
+  background: #ffffff;
+  border: 2px solid #20bf6b !important;
+  border-radius: 4px;
+  width: 30%;
+  height: 30px;
+  display: inline-block;
+}
+
+#addBtn:hover {
+  background-color: #20bf6b;
+  color: #ffffff !important;
+  transition: all 0.3s ease 0s;
+}
+
+.form-table tbody tr td input[type="text"] {
+  width: 90%;
+  padding: 7px;
+  border-radius: 3px;
+  border: #256669 1px solid;
+}
+
+.form-table tbody tr td select {
+  border: #35323865 solid 1px;
+  border-radius: 3px;
+  width: 100%;
+  height: 30px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  vertical-align: middle;
+}
+
+#rmBtn {
+  color: #dc143c !important;
+  text-transform: uppercase;
+  background: #ffffff;
+  border: 2px solid #dc143c !important;
+  border-radius: 4px;
+  width: 30%;
+  height: 30px;
+  display: inline-block;
+}
+
+#rmBtn:hover {
+  background-color: #dc143c;
+  color: #ffffff !important;
+  transition: all 0.3s ease 0s;
+}
+
+#rmBtn:focus {
+  outline: 0;
+}
+
+#addBtn:focus {
+  outline: 0;
+}
